@@ -1,0 +1,117 @@
+/* Общие стили */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8f1e4;
+    color: #5a3e2b;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: #8a5a44;
+    font-weight: normal;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Заголовок */
+header {
+    background-color: #d4aa6d;
+    padding: 20px 0;
+    border-bottom: 5px solid #8a5a44;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+header nav a {
+    color: #5a3e2b;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+header nav a:hover {
+    color: #8a5a44;
+}
+
+/* О нас */
+#about {
+    background-image: url('photo1/spagete.jpg'); /* Добавьте текстуру дерева */
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0;
+    color: #fff;
+    text-align: center;
+}
+
+/* Продукты */
+#products {
+    background-color: #f3e1d0;
+    padding: 40px 0;
+}
+
+.product-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 30%;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product h3 {
+    color: #5a3e2b;
+    font-size: 24px;
+}
+
+.product p {
+    color: #7b634c;
+}
+
+.product button {
+    background-color: #d4aa6d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product button:hover {
+    background-color: #8a5a44;
+}
+
+/* Контакты */
+#contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Нижний колонтитул */
+footer {
+    background-color: #8a5a44;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
